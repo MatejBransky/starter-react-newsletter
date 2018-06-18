@@ -1,8 +1,12 @@
 {
-  "name": "react-email",
+  "name": "starter-react-newsletter",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "author": "Matej Mazur",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatejMazur/starter-react-newsletter.git"
+  },
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
