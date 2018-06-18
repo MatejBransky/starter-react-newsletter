@@ -1,0 +1,112 @@
+# Zakladni nastaveni newsletteru (titulek, hero obrazek, banner, footer,...)
+general:
+  # Hlavni a relativne stale odkazy newsletteru
+  links:
+    homepage: http://www.topkur.cz/de.html
+    # Odkaz na mobilni aplikaci
+    app: http://www.kvig.cz/
+    # Odkazy na podstranku jednotlivych lazenskych mest
+    areas:
+      Karlsbad: http://www.topkur.cz/de/karlsbad.html
+      Marienbad: http://www.topkur.cz/de/marienbad.html
+      Franzensbad: http://www.topkur.cz/de/franzensbad.html
+      Erzgebirge: http://www.topkur.cz/de/erzgebirge.html
+      Radonbad Jáchymov: http://www.topkur.cz/de/radonbad-jachymov.html
+
+  # Text uplne nahore
+  top: |
+    Kurlaub in West Böhmen jetzt wirklich günstig. Sichern Sie sich jetzt unseren
+    aktuellen Kur und Wellness -Deal!
+    Keine Bilder? Bitte <a href="{{webversion}}" target="_blank">hier klicken</a>.
+
+  header:
+    # Titulek vedle loga
+    text: |
+      Lokaler Fachanbieter
+      für Kur und Wellness
+    # Titulni obrazek
+    hero:
+      src: https://s3-eu-west-1.amazonaws.com/se20-account-data/9297/media/cerven2018/hero01.jpg
+      width: 650
+      height: 488
+
+  # Zluty vyrazny banner pod hero obrazkem
+  banner:
+    <strong>NEU auch für 2018 - bekommen Sie jetzt einen Reisekostenzuschuss 
+    bis 200 Eur pro Buchung!</strong><br/><br/>In ausgewählten Hotels für 
+    Buchungen <br/>ab 14 Nächte nur bei Topkur.cz
+    
+  # text nad odkazem na Facebook
+  additional: |
+    ...oder schauen Sie sich unsere vollständige
+    Auswahl der einzelnen Kurorte.
+
+  # Oblast s odkazem na Facebook
+  social:
+    text: |
+      Schon unsere
+      Facebook besucht?
+    href: http://www.facebook.com/TOPKURcz-422983244527947/?fref=ts
+
+  # Lista s odkazy na jednotlive lokace
+  categories:
+    text: Alle Angebote
+    width: 161
+    height: 120
+    img:
+      - src: https://s3-eu-west-1.amazonaws.com/se20-account-data/9297/media/sablona-nl-2017/rozcestnik-marienbad.jpg?toh0jfpi
+        alt: Marienbad
+        href: http://www.topkur.cz/de/marienbad.html
+      - src: https://s3-eu-west-1.amazonaws.com/se20-account-data/9297/media/sablona-nl-2017/rozcestnik-karlsbad.jpg?toh0jfpi
+        alt: Karlsbad
+        href: http://www.topkur.cz/de/karlsbad.html
+      - src: https://s3-eu-west-1.amazonaws.com/se20-account-data/9297/media/sablona-nl-2017/rozcestnik-franzensbad.jpg?toh0jfpi
+        alt: Franzensbad
+        href: http://www.topkur.cz/de/franzensbad.html
+      - src: https://s3-eu-west-1.amazonaws.com/se20-account-data/9297/media/sablona-nl-2017/rozcestnik-radonbad-jachymov.jpg
+        alt: Jáchymov
+        href: http://www.topkur.cz/de/radonbad-jachymov.html
+
+  # Zapati
+  footer:
+    contact:
+      title: |
+        In unserem Call-Center
+        beraten wir Sie gerne persönlich.
+      email: <a href='mailto:topkur@topkur.cz'>topkur@topkur.cz</a>
+      skype: <a href='skype:topkurA-G?call'>topkurA-G</a>
+      tel: <a href='tel:00420357070560'>00420&nbsp;357&nbsp;070&nbsp;560</a>
+      web: <a href='http://www.topkur.cz/de/' target='_blank'>www.topkur.cz/de/</a>
+      note: Wir rufen Sie gerne kostenfrei zurück.
+    info: |
+      Dieses wurde als Geschäftsnachricht {{df_emailaddress}} gesendet.
+      Fügen Sie die E-Mail Adresse {{cl_sendername}}, {{cl_senderemail}} in Ihr E-Mail-Adressbuch,
+      um sicherzustellen, dass keine Nachricht in Spam landet.
+      Um diese Mitteilungen abbestellen, klicken Sie
+      infach hier.
+
+  # Rozmery obrazku u nabidky
+  item:
+    width: 250
+    height: 167
+
+# Jednotlive nabidky
+items:
+  - area: Karlsbad
+    title: Spa Hotel Prezident
+    text: |
+      "Wellness á la carte"
+      wählen Sie selbst di Anwendungen
+      und Anzahl den Nächte,
+      1 bis 6 Nächte mit HP,
+      1 Anwendung/Nacht,
+      Schwimmbad, Saunaland
+      sonnige Terrasse
+    currCost: 91
+    prevCost: 119
+    href: http://topkur.cz/de/hotels/karlsbad/spa-hotel-prezident/2963/1.html?datePickerFrom=11.05.2018&datePickerTo=11.10.2018
+    img:
+      src: https://s3-eu-west-1.amazonaws.com/se20-account-data/9297/media/cerven2018/karlsbad-bazen-thumb.jpg
+      alt: Hotel
+      
+
